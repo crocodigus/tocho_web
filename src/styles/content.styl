@@ -1,0 +1,37 @@
+.content
+	margin 64px 0 0 0
+	
+	//&-features
+	
+	&-block
+		padding .5em
+		//background-color $color3
+		border-left 6px solid $color3
+		border-bottom 1px solid #aaa
+		
+		&:hover
+			background-color #ccc
+
+		&:nth-child(1)
+			border-left-color #458489
+		&:nth-child(2)
+			border-left-color #f58497
+		&:nth-child(3)
+			border-left-color #008794
+
+@media (min-width: 768px)
+	.content
+		margin 80px 0 0 0
+		
+		&-block
+			width 20%
+			background-color $color3
+
+		&-features
+			display flex
+			justify-content space-between
+
+
+
+
+		/**************   video en 26:15 restantes ******************/
