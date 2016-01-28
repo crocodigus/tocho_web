@@ -4,6 +4,14 @@ $(document).ready(function(){
 	        $("#contenido").load('../secciones/captura_cedula.html');
 	});
 
+	$("#op_equipos").click(function(event) {
+	        $("#contenido").load('../secciones/equipos.html');
+	});
+
+	
+
+
+
 
 
 	(function (){
