@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TORNEO AGSFFL 2016</title>
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<header class="header">
+		<div class="header-mobile">
+			<h1 class="header-logo">assets-Log</h1>
+			<button id="btnMenu" class="header-btn-nav">menú</button>
+
+		</div>
+			
+		<nav class="header-menu-navbar">
+			<ul id="navBarMenu" class="header-menu-list">
+				<li class="header-menu-list-item">
+					<a href="#">Captura</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#">Equipos</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#">Anotaciones</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#">Intercepciones</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#">Arbitros</a>
+				</li>
+				<li class="header-menu-list-item">
+					<a href="#">Rol</a>
+				</li>
+			</ul>
+		</nav>	
+	</header>
+
+	<article class="content">
+
+		<section class="content-text">
+			<div class="video-container">
+				<iframe  width="560" height="315" src="https://www.youtube.com/embed/Lgv-213JbsM" frameborder="0" allowfullscreen></iframe>	
+			</div>		
+		</section>
+
+		<section class="content-features">
+			<div class="content-block">
+				<h3 class="content-block-title">Equipo 1</h3>
+				<p>Algun dato del equipo</p>
+			</div>
+			<div class="content-block">
+				<h3 class="content-block-title">Equipo 2</h3>
+				<p>Algun dato del equipo</p>
+			</div>
+			<div class="content-block">
+				<h3 class="content-block-title">Equipo 3</h3>
+				<p>Algun dato del equipo</p>
+			</div>
+		</section>
+	</article>
+	<script type="text/javascript">
+		(function (){
+			var btnMenu = document.getElementById('btnMenu');
+			var navBarMenu = document.getElementById('navBarMenu');
+			btnMenu.addEventListener('click',onClickMenu);
+
+			function onClickMenu() {
+				navBarMenu.classList.toggle('header-menu-list--show');
+			}
+
+		}())
+	</script>
+</body>
+</html>
