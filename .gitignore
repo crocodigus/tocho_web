@@ -1,4 +1,3 @@
-node_modules/
+dev/node_modules/
 log.txt
-index.html
-build/images/
+de/build/images/
