@@ -8,7 +8,9 @@ $(document).ready(function(){
 	        $("#contenido").load('../secciones/equipos.html');
 	});
 
-	
+	$("#op_posiciones").click(function(event) {
+	        $("#contenido").load('../secciones/est_equipos.html');
+	});
 
 
 
@@ -18,11 +20,14 @@ $(document).ready(function(){
 		var btnMenu = document.getElementById('btnMenu');
 		var navBarMenu = document.getElementById('navBarMenu');
 		btnMenu.addEventListener('click',onClickMenu);
+		navBarMenu.addEventListener('click',onClickOption);
 
 		function onClickMenu() {
 			navBarMenu.classList.toggle('header-menu-list--show');
 		}
-
+		function onClickOption() {
+			navBarMenu.classList.toggle('header-menu-list--show');
+		}
 	}())
 
 

@@ -1,0 +1,71 @@
+.tbl-equipos 
+	background-color #BBB
+	//border 1px solid #000
+	text-align center
+	width 95%
+	margin 0 auto
+	
+	&-tabla
+		border 1px solid #CCC
+		background-color #FFF
+		width 100%
+		color #000
+		
+		& th
+			background-color #333
+			color #DDD
+			padding 3px 0 3px 0
+
+		& td, th
+			border 1px solid #777
+		
+		& td 
+			padding 2px 0 2px 0
+			
+		
+		& tr:nth-child(odd)
+			background-color #EEE
+		& tr:nth-child(even)
+			background-color #DDD
+		& tr:hover
+			background-color #999
+			color #FFF
+.m--h
+	display none
+
+.notas
+	width 50%
+	padding 20px
+	margin 0 auto
+	text-align center
+.lg
+	width 50px
+	background-color transparent
+	border solid 0px #446688
+	
+.nom-equipo-cont
+	width 100%
+	background-color #666
+	
+
+	&-logo
+		padding-left 3px
+		//background-color #FFF
+		width 50px
+		float left
+		
+	&-txt
+		//background-color #666
+		width auto
+		float left
+		margin 18px 0 0 5px
+		font-weight 800
+
+
+@media (min-width: 400px)
+
+	.m--h
+		display table-cell
+	
+	.tbl-equipos 
+		width 70%
