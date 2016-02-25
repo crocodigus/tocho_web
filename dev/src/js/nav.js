@@ -12,7 +12,9 @@ $(document).ready(function(){
 	        $("#contenido").load('../secciones/est_equipos.html');
 	});
 
-
+	$("#op_mix").click(function(event) {
+	        $("#contenido").load('../secciones/skel.html');
+	});
 
 
 
@@ -29,9 +31,6 @@ $(document).ready(function(){
 			navBarMenu.classList.toggle('header-menu-list--show');
 		}
 	}())
-
-
-
 
 
 });

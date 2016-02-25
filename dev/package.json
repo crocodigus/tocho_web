@@ -5,8 +5,8 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-minify-css": "^1.2.3",
+    "gulp": "^3.9.1",
+    "gulp-minify-css": "^1.2.4",
     "gulp-stylus": "^2.3.0",
     "gulp-webserver": "^0.9.1",
     "nib": "^1.1.0"
