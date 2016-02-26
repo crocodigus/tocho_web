@@ -4,9 +4,9 @@
 }
 
 .swiper-container {
-    width: 100%;
+    width: 80%;
     height: 100%;
-    margin: 40px 0 0 0;
+    padding: 40px 0 0 0;
 }
 .swiper-slide {
     width: 100%;
@@ -35,9 +35,9 @@
     margin:0 auto;
 }
 .swiper-pagination-bullet {
-    width: 50px !important;
-    background-color: #985684 !important;
-    height: 20px !important;
+    width: 50px;
+    background-color: #985684;
+    height: 20px;
     text-align: center;
     /*line-height: 20px;*/
     font-size: 12px;
@@ -46,4 +46,8 @@
 .swiper-pagination-bullet-active {
     color:#000;
     background: #007aff;
+}
+
+.swiper-wrapper{
+    margin-top: 20px;
 }
