@@ -11,8 +11,6 @@
 .swiper-slide {
     width: 100%;
     height: 100%;
-    text-align: center;
-    font-size: 18px;
     background: #fff;
     /* Center slide text vertically */
     display: -webkit-box;
@@ -45,9 +43,9 @@
 }
 .swiper-pagination-bullet-active {
     color:#000;
-    background: #007aff;
+    background: #779C00;
 }
 
 .swiper-wrapper{
-    margin-top: 10px;
+    margin-top: 5px;
 }
